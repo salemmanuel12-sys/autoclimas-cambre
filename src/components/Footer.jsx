@@ -85,7 +85,7 @@ export default function Footer() {
                 <FaWhatsapp className="w-5 h-5" />
               </a>
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/profile.php?id=61588909478262"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-[#1877F2] hover:bg-[#1664cc] flex items-center justify-center transition"
