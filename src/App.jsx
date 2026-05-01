@@ -242,7 +242,7 @@ function App() {
                     </div>
                     <h4 className="font-display font-bold text-primary-900 text-lg">Ubicación</h4>
                   </div>
-                  <p className="text-primary-700 font-semibold ml-16">Av. Tamaulipas 406, Ampliacion Unidad Nacional, 89510 Cd Madero, Tamps.</p>
+                  <p className="text-primary-700 font-semibold ml-16">Av. Tamaulipas 406, Ampliacion Unidad Nacional, 89510 Tampico, Tamps.</p>
                   <a
                     href="https://maps.google.com/?q=22.3028056,-97.8637222"
                     target="_blank"
