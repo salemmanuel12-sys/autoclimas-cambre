@@ -56,7 +56,7 @@ function App() {
           <div className="relative flex w-full items-center justify-center bg-primary-900">
             <img
               src={bannerCambre}
-              alt="Banner Autoclimas Cambre"
+              alt="Reparación de Autoclimas y Refrigeradores en Tampico | Autoclimas Cambre"
               className="block w-full h-auto object-contain"
             />
           </div>
@@ -75,11 +75,12 @@ function App() {
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary-900 mb-6 leading-tight">
-                Soluciones que conservan lo que más importa
+                Reparación de Autoclimas y Refrigeradores en Tampico, Madero y Altamira.
               </h1>
 
               <p className="text-lg md:text-xl text-primary-700 mb-10 leading-relaxed">
-                Especialistas en climatización automotriz y refrigeración doméstica con más de una década de experiencia garantizando calidad y profesionalismo.
+                En Autoclimas Cambre somos especialistas en reparación de aire acondicionado automotriz y reparación de refrigeradores en Tampico, Ciudad Madero y Altamira.
+                Ofrecemos servicio a domicilio con técnicos certificados.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -111,7 +112,7 @@ function App() {
                 <div className="text-3xl font-display font-bold text-warm-600 mb-1">500+</div>
                 <p className="text-sm font-semibold text-primary-700">Clientes atendidos</p>
               </div>
-              
+
             </div>
           </div>
         </section>
@@ -306,8 +307,18 @@ function App() {
               ))}
             </div>
 
+            {/* SEO Local */}
+            <div className="mt-12 rounded-2xl bg-gradient-to-r from-primary-50 via-white to-accent-50 border border-primary-200 px-8 py-6 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left shadow-sm">
+              <MapPin className="w-8 h-8 text-primary-600 flex-shrink-0" />
+              <p className="text-primary-800 text-lg leading-relaxed">
+                Brindamos servicio en{' '}
+                <strong>Tampico, Ciudad Madero y Altamira, Tamaulipas</strong>,
+                con atención rápida y profesional.
+              </p>
+            </div>
+
             {/* Tagline */}
-            <div className="text-center mt-16 pt-12 border-t-2 border-primary-200">
+            <div className="text-center mt-12 pt-12 border-t-2 border-primary-200">
               <p className="text-2xl font-display font-bold text-primary-900 mb-3">
                 "Soluciones que conservan lo que más importa"
               </p>
